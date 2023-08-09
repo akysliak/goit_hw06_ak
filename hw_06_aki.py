@@ -10,8 +10,8 @@ be sorted.
 already exist within the target folder. However, these folders do not get deleted if they stay empty after sorting.
 
 Possible improvements:
-    - Handle files or raise exception if no extension is provided.
-    - Nomalize files and folders within unpacked archives.
+    - Handle files without extensions or raise exception.
+    - Normalize files and folders within unpacked archives.
 '''
 
 import os.path
